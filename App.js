@@ -1,13 +1,8 @@
-
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Game from './components/Game';
-
-
 
 export default class App extends Component {
   render() {
-    return (
-      <Game numCount={6}/>
-    );
+    return <Game numCount={6} />;
   }
 }
